@@ -9,7 +9,7 @@ private:
     float Total,Percentage;
 
 public:
-    //accept student details
+    
     void getDetails()
     {
         cout<<"\nEnter Name:"<<endl;
@@ -22,17 +22,17 @@ public:
         cin>>marks3;
 
     }
-    //calculate total marks
+    
     void calculateTotal()
     {
         Total=marks1+marks2+marks3;
     }
-    //calculate percentage
+    
     void calculatePercentage()
     {
          Percentage=(Total)/3;
     }
-    //Display details
+    
     void displayDetails()
     {
         cout<<"\n---Student Details---";
