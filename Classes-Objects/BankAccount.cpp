@@ -88,9 +88,6 @@ int main()
                    break;
             default:printf("\nInvalid choice");
        }
-
-    }       while(choice!=4);
-
-
+ }while(choice!=4);
     return 0;
 }
