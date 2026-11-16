@@ -8,7 +8,6 @@ private:
     int accountnumber;
     float balance;
 
-
 public:
     BankAccount(string aholder,int anumber,float b)
     {
@@ -29,8 +28,7 @@ public:
           else
           {
               cout<<"\nInvalid amount"<<endl;
-          }
-
+         }
     }
     void withdraw()
     {
